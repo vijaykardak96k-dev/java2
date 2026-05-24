@@ -3,9 +3,9 @@
 <title> </title>
 </head>
 <body>
-<h1> Java project </h1>
-<h2>Succesfully Deploy java project using docker to containarized Tomcat </h2>
-<h3> TOMCAT IS IN CONATAINER</h3>
+<h1> Java project 2 </h1>
+<h2>Succesfully Deploy java project using minikube & jenkins </h2>
+<h3> This is v1</h3>
 
 </body>
 </html>
