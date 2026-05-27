@@ -2,21 +2,21 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name : javaD
+  name : javad
 
 spec:
   selector:
     matchLabels:
-      app: javaD
+      app: javad
 
   template:
     metadata:
       labels:
-        app : javaD
+        app : javad
 
     spec:
       containers:
-        - name: javaD-cont
+        - name: javad-cont
           image: java:v1
           imagePullPolicy: Never
           ports:
@@ -27,13 +27,13 @@ spec:
 apiVersion: v1
 kind: Service
 metadata:
-  name: javaD-service
+  name: javad-service
 
 spec:
   type: NodePort
 
   selector:
-    app : javaD
+    app : javad
 
   ports:
     - port: 8080
