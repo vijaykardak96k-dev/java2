@@ -55,6 +55,6 @@ jobs:
       - name: Deploy to Kubernetes
         run: |
           ssh ec2-user@${{ secrets.EC2_HOST }} << 'EOF'
-            kubectl set image deployment/java2 java2=${{ secrets.DOCKER_USERNAME }}/java2:${{ github.sha }}
-            kubectl rollout status deployment/java2
+            kubectl set image deployment/java-app java2=${{ secrets.DOCKER_USERNAME }}/java2:${{ github.sha }}
+            kubectl rollout status deployment/java-app
           EOF
