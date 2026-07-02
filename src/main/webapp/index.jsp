@@ -52,12 +52,12 @@
 
     <div class="box">
 
-        <h1>🚀 Java Application Deployed</h1>
+        <h1> Java Application Deployed</h1>
 
         <h2>Dockerized Tomcat Running Successfully</h2>
 
         <p>
-            Application deployed using Docker, Kubernetes and Tomcat.
+            Application deployed using Docker k8s and Github_Actions CICD.
         </p>
 
         <div class="credit">
