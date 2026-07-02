@@ -61,7 +61,7 @@
         </p>
 
         <div class="credit">
-            Developed by Vijay Kardak ⚡
+            Developed by Vijay Kardak ^_^
         </div>
 
     </div>
