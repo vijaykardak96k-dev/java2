@@ -1,16 +1,12 @@
 apiVersion: v1
 kind: Service
-
 metadata:
-  name: java-app-service
-
+  name: java2-service
 spec:
-  selector:
-    app: java-app
-
-  ports:
-  - port: 80
-    targetPort: 8080
-    nodePort: 30080
-
   type: NodePort
+  selector:
+    app: java2
+  ports:
+    - port: 80
+      targetPort: 8080
+      nodePort: 30080
